@@ -1,0 +1,20 @@
+{{ partial "header" . }}
+{{ partial "jumbotron" . }}
+<div class="row">
+	<div class="col-xs-1 col-sm-2"></div>
+		<div id="contentList" class="col-xs-10 col-sm-8">
+			<div>
+				<div class="row">
+					{{ range .Data.Pages }}
+					<div class="col-xs-12">  
+						<a href="{{.URL}}">
+						{{ partial "blogPreview" . }} 
+						</a>
+					</div>
+					{{ end }}
+				</div>
+			</div>
+		</div>    
+    </div>
+</div> <!--row-->
+{{ partial "footer" }}

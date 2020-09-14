@@ -1,0 +1,18 @@
+baseURL = "/"
+languageCode = "en-us"
+Title = "Michael Kohlmann"
+theme = "scratch"
+
+[taxonomies]
+	tag = "tags"
+	category = "categories"
+	language = "languages"
+	environment = "environments"
+	
+[params]
+	titleBarTitle = "Michael Kohlmann | HUGO TEST"
+	sideBarTitle = "SideBarTitle"
+	Brand = "MK"
+
+[blackfriday] 
+	hrefTargetBlank = true
